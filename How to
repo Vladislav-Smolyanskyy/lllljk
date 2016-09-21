@@ -1,0 +1,29 @@
+<div id="slide-page">
+    <div class="bcg"
+        data-bottom-top="background-position: 50% 200px;"
+        data-top-bottom="background-position: 50% -200px;"
+        data-anchor-target="#slide-page">
+        <div class="hsContainer">
+           
+        </div>
+    </div>
+</div>
+  <a name="pagecontent" id="pagecontent"></a>
+  <div class="container">
+  <br class="clear" />
+
+<div class="ten columns offset-by-three page clearfix">
+  <h1 class="center">
+    {{ page.title }}
+  </h1>
+  <div class="feature_divider"></div>
+
+  <div>
+    {{ page.content }}
+  </div>
+</div>
+
+    <style>
+#slide-page .bcg {background-image:url("YOUR-IMG-URL");}
+#slide-page .hsContainer { height: 600px; }
+    </style>
